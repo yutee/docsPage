@@ -5,7 +5,7 @@ var jumptotop = document.getElementById("jumptotop");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 60) {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     jumptotop.style.display = "block";
   } else {
     jumptotop.style.display = "none";
